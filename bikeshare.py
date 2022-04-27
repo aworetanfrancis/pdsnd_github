@@ -2,7 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+CITY_DATA = {'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
@@ -24,7 +24,7 @@ def get_filters():
   
     # gets user input for filter type (month, day or both).
     filter = input('Mind to filter the data by month, day, both, or none? ').lower()
-    while filter not in(['month', 'day', 'both', 'none']):
+    while filter not in (['month', 'day', 'both', 'none']):
         print('You provided a wrong filter !')
         filter = input('Mind to filter the data by month, day, both, or none? ').lower()
         
@@ -47,8 +47,7 @@ def get_filters():
             day = input('select day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday? ').title()
     else:
         day = 'all'
-            
-   
+ 
     print('-'*40)
     return city, month, day
 
@@ -64,7 +63,7 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    
+
     # loads  CITY_DATA file into dataframe
 
     df = pd.read_csv(CITY_DATA[city])
@@ -84,7 +83,6 @@ def load_data(city, month, day):
         
         #filter by monthS to create a new dataframe[ASSIGNMENT OPERATION)
         df = df[df['month'] == month]
-        
     #filter by day of week if applicable(USINF IF STATEMENT)
     if day != 'all':
         #filter by day of week to create the new dataframe
