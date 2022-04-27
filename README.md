@@ -10,7 +10,7 @@
 I'm Currently working on [Programming for Data Science Nanodegree]
 (https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104) at [Udacity](https://www.udacity.com) and this project is a part of my Nanodegree study.
 
-### Overview
+
 ## Overview
 In this project, we explore data related to :bike: bike share systems for three major cities in the United States Chicago, New York City, and Washington.
 and provide an interactive experience in the terminal to help answering intersting questions about it by computing descriptive statistics.
