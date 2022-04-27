@@ -28,4 +28,4 @@ And bikeshare_2.py file which include the script for the program.
 Simply run the script in ur terminal using `python bikeshare_2.py` and follow the instructions.
 #### Find me in social media
 [![Github](https://img.icons8.com/ios-filled/30/000000/github.png "Github")](https://github.com/aworetanfrancis/pdsnd_github "Github")
-
+[![LinkedIn](https://img.icons8.com/ios-glyphs/30/000000/linkedin.png "LinkedIn")](https://www.linkedin.com/in/michael-aworetan-a3711a207/ "LinkedIn")
